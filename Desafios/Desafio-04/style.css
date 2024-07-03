@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family:'paragrafo' ;
+    src: url(fontes/Outfit-VariableFont_wght.ttf);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   background-color: #00d18c8d;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: linear-gradient(to bottom,#60f4a3bf,#027333);
+    color: white;
+    padding: 20px 20px 5px 10px;
+    text-align: center;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.374);
+}
+main {
+    background-color: white;
+    padding: 6px;
+    margin: 0 auto;
+    width: 800px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.307);
+    border-radius: 1px 1px 10px 10px;
+}
+section#noticias {
+    background-color: #03ff5733;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.325);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+nav {
+   padding: 2px;
+   text-align: left;
+}
+nav > a {
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+p {
+    font-family: 'paragrafo';
+    text-indent: 30px;
+}
+h2 {
+    font-family: 'idroid';
+    color: #027333;
+    background-color: #55e0835e;
+}
+h3 {
+    color: white;
+    background-color: #027333;
+    text-align: left;
+    font-family: 'paragrafo';
+    border-radius: 9px;
+    padding: 10px;
+    width: 775px;
+    margin: 1px;
+}
+h1 {
+    font-family: 'idroid';
+    color: #027333;
+}
+footer {
+background-color: #027333;
+color: white;
+font-family: 'paragrafo';
+padding: 5px;
+margin: 10px;
+text-align: center;
+}
+span {
+    color: #027333;
+}
+a {
+    text-decoration: none;
+    color: #027333;
+}
+a:hover {
+    text-decoration: underline;
+}
+div#youtube {
+    background-color: #027333;
+    width: 778px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 4px;
+}
