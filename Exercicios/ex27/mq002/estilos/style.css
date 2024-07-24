@@ -1,2 +1,21 @@
 @charset "UTF-8";
 /*config grais*/
+
+* {
+    margin: 0px;
+    padding: 0pxd;
+}
+
+html ,body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #aeb3dd;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0px #1526a7;
+}
+
