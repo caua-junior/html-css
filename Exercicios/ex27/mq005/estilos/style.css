@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFDB00;
+    background-color: #FFF8DB;
 }
 
 header {
@@ -69,15 +69,23 @@ main {
 }
 
 article > h2{
-    padding-bottom: 20px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #af47d2a9 ,#af47d216,white);
+    border-radius: 20px;
     
 }
 
 article > p {
+    padding-top: 10px;
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
 
+}
+img {
+    width: 690px;
+    border-radius: 10px;
 }
 
 
