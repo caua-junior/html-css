@@ -33,6 +33,7 @@ span#burguer {
 span#burguer:hover {
     background-color: #AF47D2;
     transition: 0.5s;
+    padding: 15px;
 }
 
 nav {
@@ -49,13 +50,14 @@ nav > ul > li > a {
     text-decoration: none;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     border-top: 2px solid white;
 }
 
 nav > ul > li > a:hover {
     background-color: rgb(138, 0, 180);
-    transition: 0.5s;
+    transition: 0.7s;
+    
 }
 
 main {
@@ -83,10 +85,13 @@ article > p {
     text-indent: 20px;
 
 }
-img {
-    width: 690px;
-    border-radius: 10px;
-}
+ img {
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+ }
+
 
 
 
